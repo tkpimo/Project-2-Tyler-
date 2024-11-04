@@ -81,6 +81,8 @@ class Orbs {
       textAlign(CENTER);
       let newTxt = tempText.toFixed(2);
       text(newTxt, this.x, this.y - 30);
+      fill(255,0,0);
+      ellipse(this.x, this.y, this.s);
     }
   }
 
